@@ -1,0 +1,92 @@
+.wrapper {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  border: solid 1px black;
+}
+header.top-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #9a9a9a;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+header.top-header .wrapper nav.left-nav ul,
+header.top-header .wrapper nav.right-nav ul {
+  display: flex;
+  font-size: 18px;
+  line-height: 22px;
+  color: #433840;
+}
+header.top-header .wrapper nav.left-nav ul li,
+header.top-header .wrapper nav.right-nav ul li {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+header.top-header .wrapper nav.left-nav ul li a.active,
+header.top-header .wrapper nav.right-nav ul li a.active {
+  color: #fea3ac;
+}
+header.top-header .wrapper nav.left-nav ul li a,
+header.top-header .wrapper nav.right-nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+header.top-header
+  .wrapper
+  nav.left-nav
+  ul
+  li
+  a:hover
+  header.top-header
+  .wrapper
+  nav.right-nav
+  ul
+  li
+  a:hover {
+  color: #fea3ac;
+  transition: all 300ms ease-in-out;
+}
+.page-heading {
+  min-height: 500px;
+  position: relative;
+  background-size: cover;
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page-heading.about-page {
+  background: transparent url(img/Slider.png) center center no-repeat;
+  
+}
+.page-heading::before {
+}
+.page-heading::after {
+}
+.page-heading h2 {
+  font-family: Quicksand ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 62px;
+  color: white;
+}
+.page-heading span {
+  font-family: Waiting for the Sunrise ;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 50px;
+  color: #ffffff;
+}
