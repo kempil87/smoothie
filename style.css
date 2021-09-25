@@ -2,7 +2,6 @@
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-  border: solid 1px black;
 }
 header.top-header .wrapper {
   display: flex;
@@ -68,14 +67,13 @@ header.top-header
 }
 .page-heading.about-page {
   background: transparent url(img/Slider.png) center center no-repeat;
-  
 }
 .page-heading::before {
 }
 .page-heading::after {
 }
 .page-heading h2 {
-  font-family: Quicksand ;
+  font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -83,10 +81,94 @@ header.top-header
   color: white;
 }
 .page-heading span {
-  font-family: Waiting for the Sunrise ;
+  font-family: Waiting for the Sunrise;
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
   line-height: 50px;
   color: #ffffff;
+}
+
+.about-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.item-data .about-box:first-child {
+  padding-left: 25px;
+  padding-right: 45px;
+}
+
+.item-data .about-box:first-child {
+  padding-right: 25px;
+  padding-left: 45px;
+}
+.item-data .about-box article {
+  margin-bottom: 20px;
+}
+.item-data .about-box article h3 {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #433840;
+  margin-bottom: 12px;
+}
+
+.about-img {
+  height: 420px;
+  width: 390px;
+}
+
+.item-about-right {
+  margin-left: 35px;
+}
+
+.infographic-top-img {
+  width: 100%;
+  height: 111px;
+  margin-top: -15px;
+}
+.infographic-bottom-img {
+  width: 100%;
+  height: 111px;
+  /* margin-top: -15px; */
+}
+.infographic {
+  background: #fea3ac;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* min-height: 600px; */
+  margin-top: 60px;
+}
+.item-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  padding-top: 100px;
+}
+.icon-image {
+  height: 135px;
+  width: 135px;
+}
+.count {
+  font-family: Waiting for the Sunrise;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 15px;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.h4 {
+  font-weight: bold;
+  font-size: 20px;
 }
