@@ -195,5 +195,12 @@ margin-bottom: 60px;
 .team-member .team-list{
   width: 50%;
   }
-  
+  .team-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image-team{
+    border: solid 1px black;
+    border-radius: 50%;
+  }
 
